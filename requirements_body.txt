@@ -1,0 +1,47 @@
+# BIO-SCAN-BEST Body Scanner Requirements
+# Core computer vision and AI dependencies
+
+# OpenCV for computer vision and camera handling
+opencv-python>=4.8.0
+
+# MediaPipe for pose estimation and body landmark detection
+mediapipe>=0.10.0
+
+# NumPy for numerical operations
+numpy>=1.21.0
+
+# PyTorch for deep learning models
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLOv8 for person detection
+ultralytics>=8.0.0
+
+# Optional dependencies for enhanced functionality
+# These provide graceful fallbacks if not available
+
+# Trimesh for 3D mesh operations and volume calculations
+trimesh>=3.15.0
+
+# Segment Anything Model (SAM) for precise body segmentation
+# Note: This requires manual installation from Meta's repository
+# pip install git+https://github.com/facebookresearch/segment-anything.git
+
+# SMPL-X for 3D human body modeling
+# Note: Requires additional model files from https://smpl-x.is.tue.mpg.de/
+smplx>=0.1.28
+
+# Pillow for image processing and EXIF data extraction
+Pillow>=9.0.0
+
+# Additional utility libraries
+matplotlib>=3.5.0  # For visualizations and plots
+scipy>=1.8.0       # For scientific computing
+tqdm>=4.64.0       # For progress bars during model loading
+
+# Optional GPU acceleration
+# Uncomment if you have CUDA available:
+# torch-cuda>=2.0.0
+
+# Development and logging
+colorlog>=6.7.0    # For colored logging output 
